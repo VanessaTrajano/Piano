@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+
 body {
   display: flex;
   align-items: center;
@@ -12,6 +14,13 @@ body {
   border-radius: 20px;
   padding: 35px 40px;
   background-color: #000;
+}
+
+.container header{
+    color: #b2b2b2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header h2 {
@@ -58,7 +67,7 @@ header .column span {
 
 .keys-check input:checked:before {
   left: 2.1rem;
-  background-color: #8c8c8c;
+  background-color: #fff;
 }
 
 .piano-keys {
